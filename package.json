@@ -1,0 +1,43 @@
+{
+  "name": "pcc-3d-viewer",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node_modules/.bin/webpack-dev-server --config webpack.config.js --progress --colors --watch --content-base"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.5",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-es2016": "^6.22.0",
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "file-loader": "^0.10.1",
+    "html-minify": "0.3.2",
+    "node-sass": "^4.5.0",
+    "polymer-loader": "^1.0.0",
+    "resolve-url-loader": "^2.0.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.2",
+    "underscore-template-loader": "^0.7.3",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1",
+    "webpack-sass-loader": "^2.2.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "bootstrap": "^3.3.7",
+    "expose-loader": "^0.7.3",
+    "express": "^4.14.1",
+    "jquery": "^3.1.1",
+    "leaflet": "^1.0.3",
+    "lodash": "^4.17",
+    "path": "^0.12.7",
+    "promise": "^7.1.1",
+    "three": "^0.84.0",
+    "three-obj-loader": "^1.0.2",
+    "three-orbit-controls-loader": "^1.0.0"
+  }
+}
